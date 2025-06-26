@@ -20,7 +20,7 @@
         }
 
         ::-webkit-scrollbar-thumb {
-            background: linear-gradient(45deg, #00ff7f, #00bfff);
+            background: linear-gradient(45deg, #00bfff, #40e0d0);
             border-radius: 5px;
         }
 
@@ -32,7 +32,7 @@
             align-items: center;
             font-family: 'Orbitron', sans-serif;
             color: white;
-            background: linear-gradient(135deg, rgba(26, 26, 26, 0.5), rgba(20, 80, 40, 0.5)), url('https://i.postimg.cc/dtBcjTn6/IMG-20250412-190832-048.jpg') no-repeat center center/cover;
+            background: linear-gradient(135deg, rgba(26, 26, 26, 0.5), rgba(20, 60, 80, 0.5)), url('https://i.postimg.cc/dtBcjTn6/IMG-20250412-190832-048.jpg') no-repeat center center/cover;
             animation: moveBackground 20s infinite alternate;
         }
 
@@ -40,7 +40,7 @@
             background: rgba(0, 0, 0, 0.6);
             padding: 30px;
             border-radius: 20px;
-            border: 1px solid rgba(0, 255, 127, 0.2);
+            border: 1px solid rgba(0, 191, 255, 0.2);
             backdrop-filter: blur(20px);
             width: 90%;
             max-width: 600px;
@@ -54,25 +54,25 @@
             height: 150px;
             border-radius: 50%;
             object-fit: cover;
-            border: 3px solid rgba(0, 255, 127, 0.2);
-            box-shadow: 0 0 30px rgba(0, 255, 127, 0.6);
+            border: 3px solid rgba(0, 191, 255, 0.2);
+            box-shadow: 0 0 30px rgba(0, 191, 255, 0.6);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .avatar:hover {
             transform: scale(1.1);
-            box-shadow: 0 0 50px rgba(0, 255, 127, 0.8);
+            box-shadow: 0 0 50px rgba(0, 191, 255, 0.8);
         }
 
         h2 {
             margin: 20px 0;
             font-size: 2.5em;
-            background: linear-gradient(45deg, #00ff7f, #00bfff, #00ff7f);
+            background: linear-gradient(45deg, #00bfff, #40e0d0, #00bfff);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-size: 200% 200%;
             animation: gradientFlow 3s linear infinite;
-            text-shadow: 0 0 10px rgba(0, 255, 127, 0.8), 0 0 20px rgba(0, 191, 255, 0.8);
+            text-shadow: 0 0 10px rgba(0, 191, 255, 0.8), 0 0 20px rgba(64, 224, 208, 0.8);
         }
 
         p {
@@ -81,7 +81,7 @@
             margin: 0 0 25px;
             line-height: 1.6;
             color: rgba(255, 255, 255, 0.9);
-            text-shadow: 0 0 10px rgba(0, 255, 127, 0.8), 0 0 20px rgba(0, 191, 255, 0.8);
+            text-shadow: 0 0 10px rgba(0, 191, 255, 0.8), 0 0 20px rgba(64, 224, 208, 0.8);
         }
 
         .social-buttons {
@@ -92,8 +92,8 @@
         }
 
         .social-button {
-            background: rgba(0, 255, 127, 0.1);
-            border: 2px solid rgba(0, 255, 127, 0.2);
+            background: rgba(0, 191, 255, 0.1);
+            border: 2px solid rgba(0, 191, 255, 0.2);
             border-radius: 30px;
             padding: 10px 20px;
             color: white;
@@ -103,25 +103,25 @@
             align-items: center;
             gap: 8px;
             transition: all 0.3s ease;
-            box-shadow: 0 0 10px rgba(0, 255, 127, 0.2);
+            box-shadow: 0 0 10px rgba(0, 191, 255, 0.2);
         }
 
         .social-button:hover {
-            background: rgba(0, 255, 127, 0.2);
+            background: rgba(0, 191, 255, 0.2);
             transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 255, 127, 0.4);
+            box-shadow: 0 10px 20px rgba(0, 191, 255, 0.4);
         }
 
         .social-button i {
             font-size: 1.2em;
-            color: #00ff7f;
+            color: #00bfff;
         }
 
         .scroll-top {
             position: fixed;
             bottom: 20px;
             right: 20px;
-            background: linear-gradient(45deg, #00ff7f, #00bfff);
+            background: linear-gradient(45deg, #00bfff, #40e0d0);
             border: none;
             border-radius: 50%;
             width: 40px;
@@ -129,7 +129,7 @@
             color: white;
             font-size: 1.2em;
             cursor: pointer;
-            box-shadow: 0 0 15px rgba(0, 255, 127, 0.6);
+            box-shadow: 0 0 15px rgba(0, 191, 255, 0.6);
             display: none;
             transition: opacity 0.3s ease, transform 0.3s ease;
         }
@@ -144,12 +144,12 @@
             color: rgba(255, 255, 255, 0.8);
             margin: 20px 0;
             animation: fadeIn 2s ease-in-out;
-            background: linear-gradient(45deg, #00ff7f, #00bfff, #00ff7f);
+            background: linear-gradient(45deg, #00bfff, #40e0d0, #00bfff);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-size: 200% 200%;
             animation: gradientFlow 3s linear infinite;
-            text-shadow: 0 0 10px rgba(0, 255, 127, 0.8), 0 0 20px rgba(0, 191, 255, 0.8);
+            text-shadow: 0 0 10px rgba(0, 191, 255, 0.8), 0 0 20px rgba(64, 224, 208, 0.8);
         }
 
         @keyframes fadeIn {
@@ -190,7 +190,7 @@
 </head>
 <body>
     <div class="content-container">
-        <img src="https://i.postimg.cc/rwPbfG41/IMG-20250412-190831-426.jpg" alt="Аватар" class="avatar">
+        <img src="https://imgfoto.host/i/hAFuJE" alt="Аватар" class="avatar">
         <h2>bio faqasap</h2>
         <p>
             About me:
@@ -202,10 +202,19 @@
         </p>
         <div class="quote">
                I do not advocate for organizations banned in the Russian Federation, and moreover, I do not call for them and do not support their activities.
+        </div>
         <div class="social-buttons">
             <a href="https://t.me/faqasap" class="social-button" target="_blank">
                 <i class="fab fa-telegram"></i>
                 <span>Telegram</span>
+            </a>
+            <a href="https://t.me/n3na3bka" class="social-button" target="_blank">
+                <i class="fab fa-telegram"></i>
+                <span>reviews</span>
+            </a>
+            <a href="https://t.me/channel_faqasap" class="social-button" target="_blank">
+                <i class="fab fa-telegram"></i>
+                <span>chanel</span>
             </a>
         </div>
     </div>
@@ -221,4 +230,4 @@
         });
     </script>
 </body>
-  </html>
+</html>
